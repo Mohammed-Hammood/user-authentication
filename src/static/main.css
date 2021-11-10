@@ -1,0 +1,60 @@
+body {
+  margin:0;
+  padding:0;
+  box-sizing: content-box;
+}
+#username, #password {
+  width:100%;
+  display:block;
+  height:40px;
+  margin:10px;
+  border-radius:5px;
+  border:1px solid silver;
+}
+.form-container {
+  padding:10px;
+  border-radius:5px;
+  float:left;
+  width:90%;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  background-color:silver;
+}
+button {
+  min-width:100px;
+  padding:10px;
+}
+.navbar-container {
+  width:100%;
+  position:fixed;
+  height:40px;
+  top:0;
+  background-color:black;
+  padding:0;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+
+}
+.navbar-container a{
+  text-decoration:none;
+  color:white;
+  padding:11px;
+  text-align:center;
+  font-size:16px;
+  line-height: 20px;
+  background-color: red;
+  cursor: pointer;
+}
+.navbar-container a:hover {
+  background-color: #bd0000;
+  color:white;
+  transition: background-color 1s;
+}
+
+.user-container {
+  float:left;
+  display:block;
+  top:20px;
+  position:relative;
+}

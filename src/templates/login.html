@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+    <div class="form-container" style="top:40px;position: relative">
+    <form method="POST" id="form" >
+        <input type="text" id="username" value="mohammed" required />
+        <input type="password" id="password" value="password123" required />
+        <button type="submit" >Log in</button>
+    </form>
+    </div>
+    <div class="scripts-container">
+        <script src="{% static 'main.js' %}" type="text/javascript"></script>
+    </div>
+{% endblock %}
